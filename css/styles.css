@@ -45,19 +45,6 @@ img {
     height: auto;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-
 .container {
     width: 100%;
     max-width: 1158px;
@@ -170,6 +157,7 @@ img {
 .hero-btn {
     display: block;
     min-width: 169px;
+    height: 56px;
     padding: 16px 32px;
     gap: 10px;
     font-family: inherit;
@@ -182,6 +170,7 @@ img {
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
     margin: 0;
     margin-right: auto;
     margin-left: auto;
@@ -198,6 +187,19 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .benefits-list {
     display: flex;
@@ -255,6 +257,7 @@ img {
 .team {
     background: var(--team-background-color);
     width: 100%;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -320,6 +323,7 @@ img {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-logo-accent {
@@ -390,6 +394,19 @@ body {
     padding-bottom: 120px; 
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
 .buttons-list {
     display: flex;
     justify-content: center;
