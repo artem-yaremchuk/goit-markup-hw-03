@@ -321,11 +321,8 @@ img {
     letter-spacing: 0.03em;
     color: var(--logo-color);
     text-transform: uppercase;
-    margin-bottom: 16px;
-}
-
-.logo-footer.link {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-accent {
